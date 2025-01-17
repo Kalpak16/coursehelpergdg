@@ -29,7 +29,7 @@ export default function LogInSide() {
 
     try {
       // Make an API call to the login endpoint
-      const response = await axios.post("https://course-helper-two.vercel.app/auth/login", loginDetails);
+      const response = await axios.post("https://coursehelpergdg.vercel.app/auth/login", loginDetails);
 
       if (response.status === 200) {
         const { token } = response.data;

@@ -16,7 +16,7 @@ export default function LandingPage() {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const response = await axios.get("https://course-helper-two.vercel.app/courses");
+        const response = await axios.get("https://coursehelpergdg.vercel.app/courses");
         setCourses(response.data);
       } catch (error) {
         console.error("Error fetching courses:", error);
